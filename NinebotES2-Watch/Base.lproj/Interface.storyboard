@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="NinebotES2_Watch" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="40" alignment="left" id="YVB-Ha-rfh">
+                            <items>
+                                <group width="40" height="40" alignment="left" verticalAlignment="center" radius="20" id="df8-cq-5Tc">
+                                    <items>
+                                        <button width="30" height="30" alignment="center" verticalAlignment="center" backgroundImage="icons8-lock-500" id="N1D-us-F5h">
+                                            <connections>
+                                                <action selector="tapLock" destination="AgC-eL-Hgc" id="kEv-N6-Lo2"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </group>
+                                <group width="40" height="40" alignment="center" verticalAlignment="center" radius="20" id="h05-mU-WaA">
+                                    <items>
+                                        <button width="30" height="30" alignment="center" verticalAlignment="center" backgroundImage="icons8-speed-500-A" id="1jN-1s-dei">
+                                            <connections>
+                                                <action selector="tapRegulator" destination="AgC-eL-Hgc" id="5IP-sG-sT2"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </group>
+                                <group width="40" height="40" alignment="right" verticalAlignment="center" radius="20" id="i2e-eZ-JC2">
+                                    <items>
+                                        <button width="30" height="30" alignment="center" verticalAlignment="center" backgroundImage="icons8-luminaria-led-filled-500-B" id="pbC-9f-dPR">
+                                            <connections>
+                                                <action selector="tapLightBack" destination="AgC-eL-Hgc" id="ino-ld-hnU"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </group>
+                            </items>
+                        </group>
+                        <table alignment="left" id="H92-wq-uBj">
+                            <items>
+                                <tableRow identifier="infoCell" id="eKS-FA-M8O" customClass="InfoCell" customModule="NinebotES2_Watch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="x6D-aj-lep">
+                                        <items>
+                                            <label width="1" alignment="left" text="Titre" textAlignment="left" id="ZOj-j1-Um4">
+                                                <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                            </label>
+                                            <label width="1" alignment="right" verticalAlignment="center" text="Valeur" textAlignment="right" id="IuZ-rw-6jl">
+                                                <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="labelTitle" destination="ZOj-j1-Um4" id="Dtn-cu-EXQ"/>
+                                        <outlet property="labelValue" destination="IuZ-rw-6jl" id="gLr-Yl-QA0"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="buttonLightBack" destination="pbC-9f-dPR" id="Hg6-m4-c3I"/>
+                        <outlet property="buttonLock" destination="N1D-us-F5h" id="cG6-Wy-vx2"/>
+                        <outlet property="buttonRegulator" destination="1jN-1s-dei" id="Nci-o5-sFL"/>
+                        <outlet property="groupLightBack" destination="i2e-eZ-JC2" id="c4p-Xt-VUh"/>
+                        <outlet property="groupLock" destination="df8-cq-5Tc" id="0V1-yE-Mg6"/>
+                        <outlet property="groupRegulator" destination="h05-mU-WaA" id="MW5-CQ-SXB"/>
+                        <outlet property="table" destination="H92-wq-uBj" id="BRH-HS-jKg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="55" y="167.5"/>
+        </scene>
+    </scenes>
+</document>

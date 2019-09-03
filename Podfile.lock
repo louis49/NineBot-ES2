@@ -1,0 +1,25 @@
+PODS:
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
+  - UICircularProgressRing (4.0.0)
+
+DEPENDENCIES:
+  - RxCocoa (~> 4.3.1)
+  - RxSwift (~> 4.3.1)
+  - UICircularProgressRing
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxSwift
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  UICircularProgressRing: dd448c3ff2176e3b2ba3f100f329c489a5389571
+
+PODFILE CHECKSUM: 68a9320fcd6c3e008fbb88d6adfb1bed5debeb30
+
+COCOAPODS: 1.5.3

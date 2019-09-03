@@ -1,0 +1,1166 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EA0CB68B0D0B40AB4989D6B /* Pods_NinebotES2_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B697314058FDDDDDCCE26C0B /* Pods_NinebotES2_OSX.framework */; };
+		7657D946215007B6007945FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657D945215007B6007945FB /* AppDelegate.swift */; };
+		7657D948215007B6007945FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657D947215007B6007945FB /* ViewController.swift */; };
+		7657D94B215007B6007945FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7657D949215007B6007945FB /* Main.storyboard */; };
+		7657D94D215007B8007945FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7657D94C215007B8007945FB /* Assets.xcassets */; };
+		7657D950215007B8007945FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7657D94E215007B8007945FB /* LaunchScreen.storyboard */; };
+		7657D95B215007B8007945FB /* NinebotES2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657D95A215007B8007945FB /* NinebotES2Tests.swift */; };
+		7657D9682150D369007945FB /* TableViewCellButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657D9672150D369007945FB /* TableViewCellButtons.swift */; };
+		76587B812153F0C8009C6303 /* TableViewCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76587B802153F0C8009C6303 /* TableViewCellInfo.swift */; };
+		765C35642154BE7100619FD5 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C35632154BE7100619FD5 /* InfoCell.swift */; };
+		765C3592215BAB2F00619FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C3591215BAB2F00619FD5 /* AppDelegate.swift */; };
+		765C3594215BAB2F00619FD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C3593215BAB2F00619FD5 /* ViewController.swift */; };
+		765C3596215BAB3000619FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765C3595215BAB3000619FD5 /* Assets.xcassets */; };
+		765C3599215BAB3000619FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765C3597215BAB3000619FD5 /* Main.storyboard */; };
+		765C35A0215BEC9000619FD5 /* Trottinette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2919E2152A21900F462F0 /* Trottinette.swift */; };
+		765C35A1215BEC9400619FD5 /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291A12152B12A00F462F0 /* BLE.swift */; };
+		765C35A2215BEC9400619FD5 /* BLEMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291A42152B15C00F462F0 /* BLEMessage.swift */; };
+		765C35A3215BEC9400619FD5 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291A72152B34500F462F0 /* Queue.swift */; };
+		765C35A6215D286A00619FD5 /* TableViewCellLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C35A5215D286A00619FD5 /* TableViewCellLevel.swift */; };
+		765C35A8215DFAA400619FD5 /* TableViewCellTwoButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765C35A7215DFAA400619FD5 /* TableViewCellTwoButtons.swift */; };
+		76F2917C2152A1E000F462F0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F2917A2152A1E000F462F0 /* Interface.storyboard */; };
+		76F2917E2152A1E200F462F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F2917D2152A1E200F462F0 /* Assets.xcassets */; };
+		76F291852152A1E200F462F0 /* NinebotES2-Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 76F291842152A1E200F462F0 /* NinebotES2-Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		76F2918A2152A1E200F462F0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291892152A1E200F462F0 /* InterfaceController.swift */; };
+		76F2918C2152A1E200F462F0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2918B2152A1E200F462F0 /* ExtensionDelegate.swift */; };
+		76F2918E2152A1E200F462F0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2918D2152A1E200F462F0 /* ComplicationController.swift */; };
+		76F291902152A1E200F462F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F2918F2152A1E200F462F0 /* Assets.xcassets */; };
+		76F291942152A1E200F462F0 /* NinebotES2-Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 76F291782152A1E000F462F0 /* NinebotES2-Watch.app */; };
+		76F2919F2152A21900F462F0 /* Trottinette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2919E2152A21900F462F0 /* Trottinette.swift */; };
+		76F291A02152A21900F462F0 /* Trottinette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F2919E2152A21900F462F0 /* Trottinette.swift */; };
+		76F291A22152B12A00F462F0 /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291A12152B12A00F462F0 /* BLE.swift */; };
+		76F291A32152B12A00F462F0 /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291A12152B12A00F462F0 /* BLE.swift */; };
+		76F291A52152B15C00F462F0 /* BLEMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291A42152B15C00F462F0 /* BLEMessage.swift */; };
+		76F291A62152B15C00F462F0 /* BLEMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291A42152B15C00F462F0 /* BLEMessage.swift */; };
+		76F291A82152B34500F462F0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291A72152B34500F462F0 /* Queue.swift */; };
+		76F291A92152B34500F462F0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F291A72152B34500F462F0 /* Queue.swift */; };
+		9B907F18017D0F4AA193EA6C /* Pods_NinebotES2_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30F04772E527E670B6DE57D /* Pods_NinebotES2_Watch_Extension.framework */; };
+		C8B738383B85C0CD3C6D0C52 /* Pods_NinebotES2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E162D5DD93B1985E2472A9 /* Pods_NinebotES2.framework */; };
+		E994732D1632184F970811A3 /* Pods_NinebotES2_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA26D8C0EFCAA31FB50756C /* Pods_NinebotES2_Watch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7657D957215007B8007945FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7657D93A215007B6007945FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7657D941215007B6007945FB;
+			remoteInfo = NinebotES2;
+		};
+		76F291862152A1E200F462F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7657D93A215007B6007945FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F291832152A1E200F462F0;
+			remoteInfo = "NinebotES2-Watch Extension";
+		};
+		76F291922152A1E200F462F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7657D93A215007B6007945FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76F291772152A1E000F462F0;
+			remoteInfo = "NinebotES2-Watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76F2919A2152A1E200F462F0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				76F291852152A1E200F462F0 /* NinebotES2-Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F2919C2152A1E200F462F0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				76F291942152A1E200F462F0 /* NinebotES2-Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		176E0C3D216761E68B8E2AF4 /* Pods-NinebotES2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinebotES2.release.xcconfig"; path = "Pods/Target Support Files/Pods-NinebotES2/Pods-NinebotES2.release.xcconfig"; sourceTree = "<group>"; };
+		1C3EB2F97F3A5CC08B646E09 /* Pods-NinebotES2-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinebotES2-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NinebotES2-OSX/Pods-NinebotES2-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		342E812CFC49150461AA9337 /* Pods-NinebotES2-Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinebotES2-Watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-NinebotES2-Watch Extension/Pods-NinebotES2-Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		3E68CDAD26D2E52DB34DE525 /* Pods-NinebotES2-Watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinebotES2-Watch.release.xcconfig"; path = "Pods/Target Support Files/Pods-NinebotES2-Watch/Pods-NinebotES2-Watch.release.xcconfig"; sourceTree = "<group>"; };
+		43CBEA02D09A0E1F67D5056A /* Pods-NinebotES2-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinebotES2-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-NinebotES2-OSX/Pods-NinebotES2-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		7657D942215007B6007945FB /* NinebotES2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinebotES2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7657D945215007B6007945FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7657D947215007B6007945FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7657D94A215007B6007945FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7657D94C215007B8007945FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7657D94F215007B8007945FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7657D951215007B8007945FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7657D956215007B8007945FB /* NinebotES2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinebotES2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7657D95A215007B8007945FB /* NinebotES2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinebotES2Tests.swift; sourceTree = "<group>"; };
+		7657D95C215007B8007945FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7657D965215007F5007945FB /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7657D9672150D369007945FB /* TableViewCellButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellButtons.swift; sourceTree = "<group>"; };
+		76587B802153F0C8009C6303 /* TableViewCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellInfo.swift; sourceTree = "<group>"; };
+		765C35632154BE7100619FD5 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		765C358F215BAB2E00619FD5 /* NinebotES2-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NinebotES2-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		765C3591215BAB2F00619FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		765C3593215BAB2F00619FD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		765C3595215BAB3000619FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		765C3598215BAB3000619FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		765C359A215BAB3000619FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765C359B215BAB3000619FD5 /* NinebotES2_OSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NinebotES2_OSX.entitlements; sourceTree = "<group>"; };
+		765C35A4215BEDF900619FD5 /* NinebotES2-OSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NinebotES2-OSX.entitlements"; sourceTree = "<group>"; };
+		765C35A5215D286A00619FD5 /* TableViewCellLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellLevel.swift; sourceTree = "<group>"; };
+		765C35A7215DFAA400619FD5 /* TableViewCellTwoButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellTwoButtons.swift; sourceTree = "<group>"; };
+		76F291782152A1E000F462F0 /* NinebotES2-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NinebotES2-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F2917B2152A1E000F462F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		76F2917D2152A1E200F462F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76F2917F2152A1E200F462F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F291842152A1E200F462F0 /* NinebotES2-Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NinebotES2-Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F291892152A1E200F462F0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		76F2918B2152A1E200F462F0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		76F2918D2152A1E200F462F0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		76F2918F2152A1E200F462F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76F291912152A1E200F462F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F2919E2152A21900F462F0 /* Trottinette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trottinette.swift; sourceTree = "<group>"; };
+		76F291A12152B12A00F462F0 /* BLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE.swift; sourceTree = "<group>"; };
+		76F291A42152B15C00F462F0 /* BLEMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEMessage.swift; sourceTree = "<group>"; };
+		76F291A72152B34500F462F0 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		B697314058FDDDDDCCE26C0B /* Pods_NinebotES2_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinebotES2_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA26D8C0EFCAA31FB50756C /* Pods_NinebotES2_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinebotES2_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30F04772E527E670B6DE57D /* Pods_NinebotES2_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinebotES2_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4494235CB2B0AEDFAD01B7 /* Pods-NinebotES2-Watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinebotES2-Watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NinebotES2-Watch/Pods-NinebotES2-Watch.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E162D5DD93B1985E2472A9 /* Pods_NinebotES2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinebotES2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36EE0B1798F0DDEF4F77A16 /* Pods-NinebotES2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinebotES2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NinebotES2/Pods-NinebotES2.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0D5D87A16D0F421CFA7D98 /* Pods-NinebotES2-Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinebotES2-Watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NinebotES2-Watch Extension/Pods-NinebotES2-Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7657D93F215007B6007945FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B738383B85C0CD3C6D0C52 /* Pods_NinebotES2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7657D953215007B8007945FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765C358C215BAB2E00619FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA0CB68B0D0B40AB4989D6B /* Pods_NinebotES2_OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F291812152A1E200F462F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B907F18017D0F4AA193EA6C /* Pods_NinebotES2_Watch_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A577FBA68772C6878C8BFEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E994732D1632184F970811A3 /* Pods_NinebotES2_Watch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7657D939215007B6007945FB = {
+			isa = PBXGroup;
+			children = (
+				76F2919D2152A20A00F462F0 /* Shared */,
+				7657D965215007F5007945FB /* Podfile */,
+				7657D944215007B6007945FB /* NinebotES2 */,
+				7657D959215007B8007945FB /* NinebotES2Tests */,
+				76F291792152A1E000F462F0 /* NinebotES2-Watch */,
+				76F291882152A1E200F462F0 /* NinebotES2-Watch Extension */,
+				765C3590215BAB2F00619FD5 /* NinebotES2-OSX */,
+				7657D943215007B6007945FB /* Products */,
+				ACFD3C4FEB7EE5A8C02A3697 /* Pods */,
+				B513FDC3A02C4CF808ECF9C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7657D943215007B6007945FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7657D942215007B6007945FB /* NinebotES2.app */,
+				7657D956215007B8007945FB /* NinebotES2Tests.xctest */,
+				76F291782152A1E000F462F0 /* NinebotES2-Watch.app */,
+				76F291842152A1E200F462F0 /* NinebotES2-Watch Extension.appex */,
+				765C358F215BAB2E00619FD5 /* NinebotES2-OSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7657D944215007B6007945FB /* NinebotES2 */ = {
+			isa = PBXGroup;
+			children = (
+				7657D945215007B6007945FB /* AppDelegate.swift */,
+				7657D947215007B6007945FB /* ViewController.swift */,
+				7657D949215007B6007945FB /* Main.storyboard */,
+				7657D94C215007B8007945FB /* Assets.xcassets */,
+				7657D94E215007B8007945FB /* LaunchScreen.storyboard */,
+				7657D951215007B8007945FB /* Info.plist */,
+				7657D9672150D369007945FB /* TableViewCellButtons.swift */,
+				76587B802153F0C8009C6303 /* TableViewCellInfo.swift */,
+				765C35A5215D286A00619FD5 /* TableViewCellLevel.swift */,
+				765C35A7215DFAA400619FD5 /* TableViewCellTwoButtons.swift */,
+			);
+			path = NinebotES2;
+			sourceTree = "<group>";
+		};
+		7657D959215007B8007945FB /* NinebotES2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7657D95A215007B8007945FB /* NinebotES2Tests.swift */,
+				7657D95C215007B8007945FB /* Info.plist */,
+			);
+			path = NinebotES2Tests;
+			sourceTree = "<group>";
+		};
+		765C3590215BAB2F00619FD5 /* NinebotES2-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				765C35A4215BEDF900619FD5 /* NinebotES2-OSX.entitlements */,
+				765C3591215BAB2F00619FD5 /* AppDelegate.swift */,
+				765C3593215BAB2F00619FD5 /* ViewController.swift */,
+				765C3595215BAB3000619FD5 /* Assets.xcassets */,
+				765C3597215BAB3000619FD5 /* Main.storyboard */,
+				765C359A215BAB3000619FD5 /* Info.plist */,
+				765C359B215BAB3000619FD5 /* NinebotES2_OSX.entitlements */,
+			);
+			path = "NinebotES2-OSX";
+			sourceTree = "<group>";
+		};
+		76F291792152A1E000F462F0 /* NinebotES2-Watch */ = {
+			isa = PBXGroup;
+			children = (
+				76F2917A2152A1E000F462F0 /* Interface.storyboard */,
+				76F2917D2152A1E200F462F0 /* Assets.xcassets */,
+				76F2917F2152A1E200F462F0 /* Info.plist */,
+			);
+			path = "NinebotES2-Watch";
+			sourceTree = "<group>";
+		};
+		76F291882152A1E200F462F0 /* NinebotES2-Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				76F291892152A1E200F462F0 /* InterfaceController.swift */,
+				76F2918B2152A1E200F462F0 /* ExtensionDelegate.swift */,
+				76F2918D2152A1E200F462F0 /* ComplicationController.swift */,
+				76F2918F2152A1E200F462F0 /* Assets.xcassets */,
+				76F291912152A1E200F462F0 /* Info.plist */,
+				765C35632154BE7100619FD5 /* InfoCell.swift */,
+			);
+			path = "NinebotES2-Watch Extension";
+			sourceTree = "<group>";
+		};
+		76F2919D2152A20A00F462F0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				76F2919E2152A21900F462F0 /* Trottinette.swift */,
+				76F291A12152B12A00F462F0 /* BLE.swift */,
+				76F291A42152B15C00F462F0 /* BLEMessage.swift */,
+				76F291A72152B34500F462F0 /* Queue.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ACFD3C4FEB7EE5A8C02A3697 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F36EE0B1798F0DDEF4F77A16 /* Pods-NinebotES2.debug.xcconfig */,
+				176E0C3D216761E68B8E2AF4 /* Pods-NinebotES2.release.xcconfig */,
+				DB4494235CB2B0AEDFAD01B7 /* Pods-NinebotES2-Watch.debug.xcconfig */,
+				3E68CDAD26D2E52DB34DE525 /* Pods-NinebotES2-Watch.release.xcconfig */,
+				FD0D5D87A16D0F421CFA7D98 /* Pods-NinebotES2-Watch Extension.debug.xcconfig */,
+				342E812CFC49150461AA9337 /* Pods-NinebotES2-Watch Extension.release.xcconfig */,
+				1C3EB2F97F3A5CC08B646E09 /* Pods-NinebotES2-OSX.debug.xcconfig */,
+				43CBEA02D09A0E1F67D5056A /* Pods-NinebotES2-OSX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B513FDC3A02C4CF808ECF9C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0E162D5DD93B1985E2472A9 /* Pods_NinebotES2.framework */,
+				CEA26D8C0EFCAA31FB50756C /* Pods_NinebotES2_Watch.framework */,
+				D30F04772E527E670B6DE57D /* Pods_NinebotES2_Watch_Extension.framework */,
+				B697314058FDDDDDCCE26C0B /* Pods_NinebotES2_OSX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7657D941215007B6007945FB /* NinebotES2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7657D95F215007B8007945FB /* Build configuration list for PBXNativeTarget "NinebotES2" */;
+			buildPhases = (
+				41B55FA9F63F63E0799EC0C9 /* [CP] Check Pods Manifest.lock */,
+				7657D93E215007B6007945FB /* Sources */,
+				7657D93F215007B6007945FB /* Frameworks */,
+				7657D940215007B6007945FB /* Resources */,
+				BAC6A697C077BDDA7FC912EA /* [CP] Embed Pods Frameworks */,
+				76F2919C2152A1E200F462F0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F291932152A1E200F462F0 /* PBXTargetDependency */,
+			);
+			name = NinebotES2;
+			productName = NinebotES2;
+			productReference = 7657D942215007B6007945FB /* NinebotES2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7657D955215007B8007945FB /* NinebotES2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7657D962215007B8007945FB /* Build configuration list for PBXNativeTarget "NinebotES2Tests" */;
+			buildPhases = (
+				7657D952215007B8007945FB /* Sources */,
+				7657D953215007B8007945FB /* Frameworks */,
+				7657D954215007B8007945FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7657D958215007B8007945FB /* PBXTargetDependency */,
+			);
+			name = NinebotES2Tests;
+			productName = NinebotES2Tests;
+			productReference = 7657D956215007B8007945FB /* NinebotES2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		765C358E215BAB2E00619FD5 /* NinebotES2-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765C359C215BAB3000619FD5 /* Build configuration list for PBXNativeTarget "NinebotES2-OSX" */;
+			buildPhases = (
+				495D1852D7840515F1281765 /* [CP] Check Pods Manifest.lock */,
+				765C358B215BAB2E00619FD5 /* Sources */,
+				765C358C215BAB2E00619FD5 /* Frameworks */,
+				765C358D215BAB2E00619FD5 /* Resources */,
+				609517571F055143C426605A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NinebotES2-OSX";
+			productName = "NinebotES2-OSX";
+			productReference = 765C358F215BAB2E00619FD5 /* NinebotES2-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76F291772152A1E000F462F0 /* NinebotES2-Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F2919B2152A1E200F462F0 /* Build configuration list for PBXNativeTarget "NinebotES2-Watch" */;
+			buildPhases = (
+				5CC9F267DE0855409226AC49 /* [CP] Check Pods Manifest.lock */,
+				76F291762152A1E000F462F0 /* Resources */,
+				76F2919A2152A1E200F462F0 /* Embed App Extensions */,
+				A577FBA68772C6878C8BFEB0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76F291872152A1E200F462F0 /* PBXTargetDependency */,
+			);
+			name = "NinebotES2-Watch";
+			productName = "NinebotES2-Watch";
+			productReference = 76F291782152A1E000F462F0 /* NinebotES2-Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		76F291832152A1E200F462F0 /* NinebotES2-Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F291992152A1E200F462F0 /* Build configuration list for PBXNativeTarget "NinebotES2-Watch Extension" */;
+			buildPhases = (
+				2A8BF6857F10EB88EA978BF7 /* [CP] Check Pods Manifest.lock */,
+				76F291802152A1E200F462F0 /* Sources */,
+				76F291812152A1E200F462F0 /* Frameworks */,
+				76F291822152A1E200F462F0 /* Resources */,
+				DF32CD414775D790879DE169 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NinebotES2-Watch Extension";
+			productName = "NinebotES2-Watch Extension";
+			productReference = 76F291842152A1E200F462F0 /* NinebotES2-Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7657D93A215007B6007945FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Benoît Desnos";
+				TargetAttributes = {
+					7657D941215007B6007945FB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					7657D955215007B8007945FB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 7657D941215007B6007945FB;
+					};
+					765C358E215BAB2E00619FD5 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					76F291772152A1E000F462F0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					76F291832152A1E200F462F0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 7657D93D215007B6007945FB /* Build configuration list for PBXProject "NinebotES2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7657D939215007B6007945FB;
+			productRefGroup = 7657D943215007B6007945FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7657D941215007B6007945FB /* NinebotES2 */,
+				7657D955215007B8007945FB /* NinebotES2Tests */,
+				76F291772152A1E000F462F0 /* NinebotES2-Watch */,
+				76F291832152A1E200F462F0 /* NinebotES2-Watch Extension */,
+				765C358E215BAB2E00619FD5 /* NinebotES2-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7657D940215007B6007945FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7657D950215007B8007945FB /* LaunchScreen.storyboard in Resources */,
+				7657D94D215007B8007945FB /* Assets.xcassets in Resources */,
+				7657D94B215007B6007945FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7657D954215007B8007945FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765C358D215BAB2E00619FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765C3596215BAB3000619FD5 /* Assets.xcassets in Resources */,
+				765C3599215BAB3000619FD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F291762152A1E000F462F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F2917E2152A1E200F462F0 /* Assets.xcassets in Resources */,
+				76F2917C2152A1E000F462F0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F291822152A1E200F462F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F291902152A1E200F462F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A8BF6857F10EB88EA978BF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NinebotES2-Watch Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41B55FA9F63F63E0799EC0C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NinebotES2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495D1852D7840515F1281765 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NinebotES2-OSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC9F267DE0855409226AC49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NinebotES2-Watch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		609517571F055143C426605A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NinebotES2-OSX/Pods-NinebotES2-OSX-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa-macOS/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift-macOS/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NinebotES2-OSX/Pods-NinebotES2-OSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAC6A697C077BDDA7FC912EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NinebotES2/Pods-NinebotES2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa-iOS/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift-iOS/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NinebotES2/Pods-NinebotES2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF32CD414775D790879DE169 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NinebotES2-Watch Extension/Pods-NinebotES2-Watch Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa-watchOS/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift-watchOS/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NinebotES2-Watch Extension/Pods-NinebotES2-Watch Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7657D93E215007B6007945FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765C35A8215DFAA400619FD5 /* TableViewCellTwoButtons.swift in Sources */,
+				76F291A22152B12A00F462F0 /* BLE.swift in Sources */,
+				765C35A6215D286A00619FD5 /* TableViewCellLevel.swift in Sources */,
+				76587B812153F0C8009C6303 /* TableViewCellInfo.swift in Sources */,
+				76F291A82152B34500F462F0 /* Queue.swift in Sources */,
+				7657D948215007B6007945FB /* ViewController.swift in Sources */,
+				7657D9682150D369007945FB /* TableViewCellButtons.swift in Sources */,
+				76F291A52152B15C00F462F0 /* BLEMessage.swift in Sources */,
+				76F2919F2152A21900F462F0 /* Trottinette.swift in Sources */,
+				7657D946215007B6007945FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7657D952215007B8007945FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7657D95B215007B8007945FB /* NinebotES2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765C358B215BAB2E00619FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765C35A0215BEC9000619FD5 /* Trottinette.swift in Sources */,
+				765C35A3215BEC9400619FD5 /* Queue.swift in Sources */,
+				765C3594215BAB2F00619FD5 /* ViewController.swift in Sources */,
+				765C3592215BAB2F00619FD5 /* AppDelegate.swift in Sources */,
+				765C35A2215BEC9400619FD5 /* BLEMessage.swift in Sources */,
+				765C35A1215BEC9400619FD5 /* BLE.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F291802152A1E200F462F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F291A32152B12A00F462F0 /* BLE.swift in Sources */,
+				76F291A92152B34500F462F0 /* Queue.swift in Sources */,
+				76F2918C2152A1E200F462F0 /* ExtensionDelegate.swift in Sources */,
+				76F2918A2152A1E200F462F0 /* InterfaceController.swift in Sources */,
+				76F291A62152B15C00F462F0 /* BLEMessage.swift in Sources */,
+				765C35642154BE7100619FD5 /* InfoCell.swift in Sources */,
+				76F291A02152A21900F462F0 /* Trottinette.swift in Sources */,
+				76F2918E2152A1E200F462F0 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7657D958215007B8007945FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7657D941215007B6007945FB /* NinebotES2 */;
+			targetProxy = 7657D957215007B8007945FB /* PBXContainerItemProxy */;
+		};
+		76F291872152A1E200F462F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F291832152A1E200F462F0 /* NinebotES2-Watch Extension */;
+			targetProxy = 76F291862152A1E200F462F0 /* PBXContainerItemProxy */;
+		};
+		76F291932152A1E200F462F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76F291772152A1E000F462F0 /* NinebotES2-Watch */;
+			targetProxy = 76F291922152A1E200F462F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7657D949215007B6007945FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7657D94A215007B6007945FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7657D94E215007B8007945FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7657D94F215007B8007945FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		765C3597215BAB3000619FD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				765C3598215BAB3000619FD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76F2917A2152A1E000F462F0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F2917B2152A1E000F462F0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7657D95D215007B8007945FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7657D95E215007B8007945FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7657D960215007B8007945FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36EE0B1798F0DDEF4F77A16 /* Pods-NinebotES2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				INFOPLIST_FILE = NinebotES2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bdesnos.NinebotES2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7657D961215007B8007945FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176E0C3D216761E68B8E2AF4 /* Pods-NinebotES2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				INFOPLIST_FILE = NinebotES2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bdesnos.NinebotES2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7657D963215007B8007945FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				INFOPLIST_FILE = NinebotES2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bdesnos.NinebotES2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinebotES2.app/NinebotES2";
+			};
+			name = Debug;
+		};
+		7657D964215007B8007945FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				INFOPLIST_FILE = NinebotES2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bdesnos.NinebotES2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinebotES2.app/NinebotES2";
+			};
+			name = Release;
+		};
+		765C359D215BAB3000619FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3EB2F97F3A5CC08B646E09 /* Pods-NinebotES2-OSX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NinebotES2-OSX/NinebotES2-OSX.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				INFOPLIST_FILE = "NinebotES2-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "bdesnos.NinebotES2-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		765C359E215BAB3000619FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CBEA02D09A0E1F67D5056A /* Pods-NinebotES2-OSX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NinebotES2-OSX/NinebotES2-OSX.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				INFOPLIST_FILE = "NinebotES2-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "bdesnos.NinebotES2-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		76F291952152A1E200F462F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4494235CB2B0AEDFAD01B7 /* Pods-NinebotES2-Watch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				IBSC_MODULE = NinebotES2_Watch_Extension;
+				INFOPLIST_FILE = "NinebotES2-Watch/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bdesnos.NinebotES2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		76F291962152A1E200F462F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E68CDAD26D2E52DB34DE525 /* Pods-NinebotES2-Watch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				IBSC_MODULE = NinebotES2_Watch_Extension;
+				INFOPLIST_FILE = "NinebotES2-Watch/Info.plist";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bdesnos.NinebotES2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		76F291972152A1E200F462F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0D5D87A16D0F421CFA7D98 /* Pods-NinebotES2-Watch Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				INFOPLIST_FILE = "NinebotES2-Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bdesnos.NinebotES2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		76F291982152A1E200F462F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342E812CFC49150461AA9337 /* Pods-NinebotES2-Watch Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RXL66T4L9;
+				INFOPLIST_FILE = "NinebotES2-Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bdesnos.NinebotES2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7657D93D215007B6007945FB /* Build configuration list for PBXProject "NinebotES2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7657D95D215007B8007945FB /* Debug */,
+				7657D95E215007B8007945FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7657D95F215007B8007945FB /* Build configuration list for PBXNativeTarget "NinebotES2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7657D960215007B8007945FB /* Debug */,
+				7657D961215007B8007945FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7657D962215007B8007945FB /* Build configuration list for PBXNativeTarget "NinebotES2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7657D963215007B8007945FB /* Debug */,
+				7657D964215007B8007945FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		765C359C215BAB3000619FD5 /* Build configuration list for PBXNativeTarget "NinebotES2-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765C359D215BAB3000619FD5 /* Debug */,
+				765C359E215BAB3000619FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F291992152A1E200F462F0 /* Build configuration list for PBXNativeTarget "NinebotES2-Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F291972152A1E200F462F0 /* Debug */,
+				76F291982152A1E200F462F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F2919B2152A1E200F462F0 /* Build configuration list for PBXNativeTarget "NinebotES2-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F291952152A1E200F462F0 /* Debug */,
+				76F291962152A1E200F462F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7657D93A215007B6007945FB /* Project object */;
+}
